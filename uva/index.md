@@ -64,13 +64,13 @@ The links in the right-most column link directly to the lecture recording on Col
 | 4 | Jan 25 | Wednesday |  | [01: C++][81] | [C++][81], slides [8.1][10107] to [9.17][1010816] ([recording][204]) |
 | 5 | Jan 27 | Friday |  | [01: C++][81] | [C++][81], slides [9.17][1010816] to [10.14][1010913] ([recording][205]) |
 | 6 | Jan 30 | Monday | [Lab 2: Linked lists][2] ([md][22]) / [Tutorial 2: LLDB][42] ([md][62]) *OR* [Tutorial 2: GDB][52] ([md][72]) (see [lab 2][2] for which one to pick) | [01: C++][81] | [C++][81], slides [10.15][1010914] to [12.10][1011109] ([recording][206]) |
-| 7 | Feb 1 | Wednesday |  | [01: C++][81], [02: Lists][82] |  |  
-| 8 | Feb 3 | Friday |  | [02: Lists][82] |  |  
-| 9 | Feb 6 | Monday | [Lab 3: Stacks][3] ([md][23]) / [Tutorial 3: More UNIX, part 1][63], introduction and sections 1-4 | [02: Lists][82], [03: Numbers][83] |  |  
-| 10 | Feb 8 | Wednesday |  | [03: Numbers][83] |  |  
-| 11 | Feb 10 | Friday |  | [03: Numbers][83] |  |  
-| 12 | Feb 13 | Monday | [Lab 4: Numbers][4] ([md][24]) / [Tutorial 4: More UNIX, part 2][64], sections 5-8 | [03: Numbers][83] |  |  
-| 13 | Feb 15 | Wednesday |  | [04: Arrays & big-Oh][84] |  |  
+| 7 | Feb 1 | Wednesday |  | [01: C++][81], [02: Lists][82] | [C++][81], slides [12.11][1011110] to [13.14][1011213] (end); [lists][82], slides [1][82] to [4.6][1020305] ([recording][208]) |
+| 8 | Feb 3 | Friday |  | [02: Lists][82] | [lists][82], slides [5.1][10204] to [7.2][1020601] ([recording][209]) |
+| 9 | Feb 6 | Monday | [Lab 3: Stacks][3] ([md][23]) / [Tutorial 3: More UNIX, part 1][63], introduction and sections 1-4 | [02: Lists][82], [03: Numbers][83] | [lists][82], slides [7.1][10206] to [9.4][1020803] (end); [numbers][83], slides [1][83] to [5.7][1030406] ([recording][210]) |
+| 10 | Feb 8 | Wednesday |  | [03: Numbers][83] | [numbers][83], slides [5.7][1030406] to [8.9][1030708] ([recording][211]) |
+| 11 | Feb 10 | Friday |  | [03: Numbers][83] | [numbers][83], slides [9.1][10308] to [9.17][1030816] ([recording][212]) |
+| 12 | Feb 13 | Monday | [Lab 4: Numbers][4] ([md][24]) / [Tutorial 4: More UNIX, part 2][64], sections 5-8 | [03: Numbers][83] | [numbers][83], slides [9.17][1030816] to [9.35][1030834] (end) ([recording][213]) |
+| 13 | Feb 15 | Wednesday |  | [04: Arrays & big-Oh][84] |  [arrays & big-Oh][84], slides [1][84] to [5.6][1040405] ([recording][214]) |  
 | 14 | Feb 17 | Friday |  | [04: Arrays & big-Oh][84] |  |  
 |  | Feb 19 | Sunday |  | Midterm 1 review session |  |  
 | 15 | Feb 20 | Monday | Midterm 1 instead during Tuesday's lab | [04: Arrays & big-Oh][84], [05: Trees][85] |  |  
@@ -324,6 +324,7 @@ None yet!
 [1011106]: ../slides/01-cpp.html#/11/6
 [1011107]: ../slides/01-cpp.html#/11/7
 [1011109]: ../slides/01-cpp.html#/11/9
+[1011110]: ../slides/01-cpp.html#/11/10
 [1011205]: ../slides/01-cpp.html#/12/5
 [1011213]: ../slides/01-cpp.html#/12/13
 [10200]: ../slides/02-lists.html
@@ -338,17 +339,20 @@ None yet!
 [1020512]: ../slides/02-lists.html#/5/12
 [1020515]: ../slides/02-lists.html#/5/15
 [10206]: ../slides/02-lists.html#/6
+[1020601]: ../slides/02-lists.html#/6/1
 [1020602]: ../slides/02-lists.html#/6/2
 [1020603]: ../slides/02-lists.html#/6/3
 [1020606]: ../slides/02-lists.html#/6/6
 [1020607]: ../slides/02-lists.html#/6/7
+[10207]: ../slides/02-lists.html#/7
 [1020706]: ../slides/02-lists.html#/7/6
 [10208]: ../slides/02-lists.html#/8
 [1020803]: ../slides/02-lists.html#/8/3
+[1030303]: ../slides/03-numbers.html#/3/3
 [10304]: ../slides/03-numbers.html#/4
 [1030403]: ../slides/03-numbers.html#/4/3
 [1030404]: ../slides/03-numbers.html#/4/4
-[1030303]: ../slides/03-numbers.html#/3/3
+[1030406]: ../slides/03-numbers.html#/4/6
 [10307]: ../slides/03-numbers.html#/7
 [1030701]: ../slides/03-numbers.html#/7/1
 [1030708]: ../slides/03-numbers.html#/7/8
@@ -368,6 +372,7 @@ None yet!
 [1030833]: ../slides/03-numbers.html#/8/33
 [1030834]: ../slides/03-numbers.html#/8/34
 [10309]: ../slides/03-numbers.html#/9
+[1040304]: ../slides/04-arrays-bigoh.html#/3/4
 [1040306]: ../slides/04-arrays-bigoh.html#/3/6
 [1040307]: ../slides/04-arrays-bigoh.html#/3/7
 [1040311]: ../slides/04-arrays-bigoh.html#/3/11
@@ -375,6 +380,7 @@ None yet!
 [1040401]: ../slides/04-arrays-bigoh.html#/4/1
 [1040402]: ../slides/04-arrays-bigoh.html#/4/2
 [1040403]: ../slides/04-arrays-bigoh.html#/4/3
+[1040405]: ../slides/04-arrays-bigoh.html#/4/5
 [1040407]: ../slides/04-arrays-bigoh.html#/4/7
 [1040409]: ../slides/04-arrays-bigoh.html#/4/9
 [1040410]: ../slides/04-arrays-bigoh.html#/4/10
